@@ -1,7 +1,30 @@
 <template>
-  <div class="mesa">
-    <h1>Mesa</h1>
-    <p>Bem-vindo à mesa!</p>
-    <button @click="handleClick">Clique aqui</button>
-  </div>
+  <body id="corpoPaginaMesa">
+    <div id="mesas">
+      
+    </div>
+    <div id="delivery">
+
+    </div>
+    
+  </body>
 </template>
+
+<style>
+  #corpoPaginaMesa {
+
+  }
+  #mesas {
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+  }
+
+  #delivery {
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+  }
+</style>

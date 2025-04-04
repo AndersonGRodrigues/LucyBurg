@@ -11,7 +11,9 @@
         <label for="password">Password:</label>
         <input type="password" id="password" v-model="password" required />
       </div>
-      <button type="submit">Login</button>
+      <button @click="handleClick">
+        <router-link to="/mesa">login</router-link>
+      </button>
     </form>
   </div>
 </template>
